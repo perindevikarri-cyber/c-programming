@@ -1,0 +1,13 @@
+int main()
+{
+	int x;
+	printf("enter x number");
+	scanf("%d",&x);
+switch(x%2==0)
+	case 1:printf("x is even");
+	       break;
+	case 0:printf("x is odd");
+	       break;	
+	return 0;	
+}
+
